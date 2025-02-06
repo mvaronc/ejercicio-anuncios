@@ -19,9 +19,12 @@ Los administradores accederán a la parte de administración una vez autenticado
 - Activar usuarios.
 - Eliminar usuarios
 - Activar anuncios. (Sólo se mostraran los activos)
-- Eliminar anuncios. 
-
+- Eliminar anuncios.
+  
 Los usuarios registrados accederán a la parte de publicación de anuncios. En esta parte se ofrecerán las siguientes acciones.
 - Publicar anuncios.
 - Eliminar anuncios (Sólo los asociados al usuario registrado)
 - Cambiar su contraseña de acceso.
+
+## Modelo E/R para las tablas creadas en install.php
+![Modelo Entidad - Relación](ER.png)
