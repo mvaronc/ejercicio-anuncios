@@ -6,9 +6,8 @@ Ejercicio a completar de una pequeña aplicación web para la publicación de an
 Como todo tipo de software, antes de empezar su desarrollo es conveniente comenzar a realizar un análisis y un diseño previo, este paso será el que nos definirá los objetivos del mismo así como la forma de la implementación.
 
 ## Análisis preliminar de los requisitos de funcionamiento.
-
-1.- Nuestra aplicación web se basará en un sistema de publicación básico de anuncios por palabras. 
-2.- Tendremos tres roles de funcionamiento en la aplicación un usuario no registrado y (dos tipos de usuarios) los administradores y los usuarios registrados.
+1. Nuestra aplicación web se basará en un sistema de publicación básico de anuncios por palabras.
+2. Tendremos tres roles de funcionamiento en la aplicación un usuario no registrado y (dos tipos de usuarios) los administradores y los usuarios registrados.
 
 Por ello esta aplicación proporcionará los siguientes servicios en en el front-end o parte pública para los usuarios no registrados.
 - Visualizar todos los anuncios por palabras ordenados desde los más recientes a los más antiguos.
