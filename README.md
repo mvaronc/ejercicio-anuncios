@@ -6,24 +6,28 @@ Ejercicio a completar de una pequeña aplicación web para la publicación de an
 Como todo tipo de software, antes de empezar su desarrollo es conveniente comenzar a realizar un análisis y un diseño previo, este paso será el que nos definirá los objetivos del mismo así como la forma de la implementación.
 
 ## Análisis preliminar de los requisitos de funcionamiento.
+### Lo mínimo para que aprobéis sin hacer examen será lo que os marco en negrita y cursiva. Si hacéis sólo lo mínimo, insertad los datos con el campo activo a 1.
 1. Nuestra aplicación web se basará en un sistema de publicación básico de anuncios por palabras.
 2. Tendremos tres roles de funcionamiento en la aplicación un usuario no registrado y (dos tipos de usuarios) los administradores y los usuarios registrados.
 
 Por ello esta aplicación proporcionará los siguientes servicios en en el front-end o parte pública para los usuarios no registrados.
-- Visualizar todos los anuncios por palabras ordenados desde los más recientes a los más antiguos.
-- Permitir registrarse en el sistema.
-- Permitir autenticarse en el sistema.
+- ***Visualizar todos los anuncios por palabras ordenados desde los más recientes a los más antiguos.***
+- ***Permitir registrarse en el sistema.***
+- ***Permitir autenticarse en el sistema.***
 
 Los administradores accederán a la parte de administración una vez autenticados. En esta parte se ofrecerán las siguientes acciones.
 - Activar usuarios.
-- Eliminar usuarios
+- ***Eliminar usuarios***
+- Editar cuarlquier usuario
 - Activar anuncios. (Sólo se mostraran los activos)
-- Eliminar anuncios.
+- ***Eliminar anuncios.***
+- Editar anuncios de cualquier usuario.
   
 Los usuarios registrados accederán a la parte de publicación de anuncios. En esta parte se ofrecerán las siguientes acciones.
-- Publicar anuncios.
-- Eliminar anuncios (Sólo los asociados al usuario registrado)
+- ***Publicar anuncios.***
+- ***Eliminar anuncios (Sólo los asociados al usuario registrado)***
 - Cambiar su contraseña de acceso.
+- Editar sus propios anunios.
 
 ## Modelo E/R para las tablas creadas en install.php
 ![Modelo Entidad - Relación](ER.png)
