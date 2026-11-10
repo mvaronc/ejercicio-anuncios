@@ -8,11 +8,11 @@ Como todo tipo de software, antes de empezar su desarrollo es conveniente comenz
 ## Análisis preliminar de los requisitos de funcionamiento.
 ### Lo mínimo para que aprobéis sin hacer examen será lo que os marco en negrita y cursiva. Si hacéis sólo lo mínimo, insertad los datos con el campo activo a 1.
 1. Nuestra aplicación web se basará en un sistema de publicación básico de anuncios por palabras.
-2. Tendremos tres roles de funcionamiento en la aplicación un usuario no registrado y (dos tipos de usuarios) los administradores y los usuarios registrados.
+2. Tendremos tres tipos de funcionamiento en la aplicación un usuario no registrado (zona pública) y (dos tipos de usuarios, zonas restringidas) los administradores y los usuarios registrados.
 
-Por ello esta aplicación proporcionará los siguientes servicios en en el front-end o parte pública para los usuarios no registrados.
+Por ello esta aplicación proporcionará los siguientes servicios en la parte pública para los usuarios no registrados.
 - ***Visualizar todos los anuncios por palabras ordenados desde los más recientes a los más antiguos.***
-- ***Permitir registrarse en el sistema.***
+- ***Permitir registrarse en el sistema.- El registro se hará con el usuario con el menor tipo de privilegios***
 - ***Permitir autenticarse en el sistema.***
 
 Los administradores accederán a la parte de administración una vez autenticados. En esta parte se ofrecerán las siguientes acciones.
@@ -26,8 +26,10 @@ Los administradores accederán a la parte de administración una vez autenticado
 Los usuarios registrados accederán a la parte de publicación de anuncios. En esta parte se ofrecerán las siguientes acciones.
 - ***Publicar anuncios.***
 - ***Eliminar anuncios (Sólo los asociados al usuario registrado)***
-- Cambiar su contraseña de acceso.
+- Cambiar su contraseña de acceso y todos los datos que no sean PK.
 - Editar sus propios anunios.
+- ***Mejora de usuario - tener asociado una imágen (png o jpg) cómo avatar***
 
 ## Modelo E/R para las tablas creadas en install.php
 ![Modelo Entidad - Relación](ER.png)
+
